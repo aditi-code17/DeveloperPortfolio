@@ -1,0 +1,16 @@
+Name: Aditi Rajput  |  Roll No: 2601730300  |  Date: Tue Nov 24 14:54:44 UTC 2026
+------------------------------------------------------------
+CPU Model and Cores:
+CPU(s):                                  8
+Model name:                              Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+------------------------------------------------------------
+Total and Used Memory:
+Total: 3.8Gi | Used: 497Mi
+------------------------------------------------------------
+Top 3 Processes by CPU Usage:
+    PID COMMAND         %CPU
+     88 systemd-udevd    0.0
+      1 systemd          0.0
+    477 Relay(482)       0.0
+----------------------------------------------------------
+Report generated successfully.
