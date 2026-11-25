@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditi Rajput | Developer Portfolio</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --text: #f1f5f9;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+    }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+    .container { max-width: 860px; margin: 0 auto; }
+    header {
+      background: var(--card);
+      padding: 2rem;
+      border-radius: 12px;
+      border-left: 4px solid var(--accent);
+      margin-bottom: 1.5rem;
+    }
+    h1 { font-size: 2rem; margin-bottom: 0.25rem; }
+    .subtitle { color: var(--accent); font-weight: 600; margin-bottom: 0.75rem; }
+    .links a {
+      display: inline-block;
+      margin-right: 1rem;
+      margin-top: 0.5rem;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .links a:hover { text-decoration: underline; }
+    section {
+      background: var(--card);
+      padding: 1.5rem 2rem;
+      border-radius: 12px;
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      font-size: 1.25rem;
+      color: var(--accent);
+      margin-bottom: 0.75rem;
+      border-bottom: 1px solid #334155;
+      padding-bottom: 0.35rem;
+    }
+    .skills { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .badge {
+      background: #0f172a;
+      border: 1px solid #334155;
+      padding: 0.35rem 0.75rem;
+      border-radius: 999px;
+      font-size: 0.9rem;
+    }
+    .project { margin-bottom: 1rem; }
+    .project h3 { font-size: 1.05rem; margin-bottom: 0.25rem; }
+    .project p { color: var(--muted); font-size: 0.95rem; }
+    footer { text-align: center; color: var(--muted); font-size: 0.85rem; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Aditi Rajput</h1>
+      <div class="subtitle">B.Tech CSE (AI &amp; ML) Undergraduate | K.R. Mangalam University</div>
+      <p>Building clean foundations in Linux system administration, Bash shell automation, Git &amp; GitHub workflows, REST APIs, and full-stack web development.</p>
+      <div class="links">
+        <a href="https://github.com/aditi-code17" target="_blank">GitHub (@aditi-code17)</a>
+        <a href="https://github.com/aditi-code17/DeveloperPortfolio" target="_blank">DeveloperPortfolio Repo</a>
+        <a href="resume.pdf" target="_blank">Technical Resume (PDF)</a>
+        <a href="https://github.com/aditi-code17/DeveloperPortfolio/blob/main/Portfolio/learning_roadmap.md" target="_blank">Learning Roadmap</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="skills">
+        <span class="badge">Linux (Ubuntu / WSL2)</span>
+        <span class="badge">Bash Shell Scripting</span>
+        <span class="badge">Git &amp; GitHub</span>
+        <span class="badge">REST APIs (curl &amp; jq)</span>
+        <span class="badge">HTML5 &amp; CSS3</span>
+        <span class="badge">Python</span>
+        <span class="badge">Arduino / ESP32 Prototyping</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Featured Capstone Project</h2>
+      <div class="project">
+        <h3>DeveloperPortfolio — Developer Ecosystem Capstone</h3>
+        <p>An end-to-end repository documenting Linux system profiling, automated hardware reporting (<code>sysinfo.sh</code>) and timestamped backup archiving (<code>backup.sh</code>), GitHub &amp; JSONPlaceholder REST API JSON extraction, career roadmap planning, and live GitHub Pages deployment.</p>
+      </div>
+    </section>
+    <footer>
+    </footer>
+   </div>
+</body>
+</html>
